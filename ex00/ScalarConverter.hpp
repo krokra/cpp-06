@@ -3,6 +3,8 @@
 
 # include <iostream>
 # include <string>
+# include <limits.h>
+# include <float.h>
 
 typedef enum e_types {
 	PSEUDO = 1,

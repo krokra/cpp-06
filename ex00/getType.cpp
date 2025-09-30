@@ -95,8 +95,6 @@ bool isInt(const std::string &str) {
 		res = res * 10 + (str[i] - '0');
 		i++;
 	}
-	if ((str[0] != '-' && res > 2147483647) || (str[0] == '-' && res > 2147483648))
-		return false;
 	return true;
 }
 

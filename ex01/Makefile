@@ -2,8 +2,7 @@ C++ := c++ -std=c++98
 RM := rm -rf
 NAME := program
 SRCS := main.cpp \
-		getType.cpp \
-		ScalarConverter.cpp
+		Serializer.cpp
 SRC := $(addprefix $(SRC_DIR), $(SRCS))
 OBJ := $(SRCS:.cpp=.o)
 
